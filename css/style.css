@@ -1,0 +1,25 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header{
+    background-color: #003B6F;
+    color: #F2F2F2
+} */
+
+
+.nav-bar{
+    background-color: #003B6F;
+    color: #F2F2F2
+}
+
+/* .nav-bar ul{
+    list-style-type: none;
+    font-family: var(--root);
+} */
+.footer-nav{
+    list-style-type: none;
+}
+.skills-tech ul{
+    list-style-type: none;
+}

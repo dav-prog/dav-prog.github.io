@@ -3,13 +3,49 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.title {
+    align-items: center;
+}
 .container {
-    display: grid;
-    grid-template-rows: 2fr 5fr 2fr;
-    /* grid-template-columns: repeat(2, 2fr); */
+    display: flex;
+    flex-direction: column;
+    /* grid-template-rows: 10fr 70fr 30fr; */
     margin: 0 px auto;
+    max-width: 1000px;
 }
 .header {
-    display: grid;
-    
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 100px;
+}
+.header li{
+    display: block;
+}
+.header li a{
+    display: block;
+    width: 60px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.projects {
+    display: flex;
+    padding: 10px;
+}
+.virtual-pets {
+    max-width: 100px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
 }
