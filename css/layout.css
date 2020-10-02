@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-rows: 2fr 5fr 2fr;
+    /* grid-template-columns: repeat(2, 2fr); */
+    margin: 0 px auto;
+}
+.header {
+    display: grid;
+    
+}
