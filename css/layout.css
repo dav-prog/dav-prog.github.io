@@ -3,49 +3,83 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.title {
-    align-items: center;
+html, .container{
+    width: 100vw;
+    height: 100vh;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    /* grid-template-rows: 10fr 70fr 30fr; */
-    margin: 0 px auto;
-    max-width: 1000px;
-}
-.header {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    height: 100px;
-}
-.header li{
-    display: block;
-}
-.header li a{
-    display: block;
-    width: 60px;
+    /* display: block; */
+    /* flex-direction: column; */
+    margin: 0 px auto; 
+    text-align: center;
 }
 
+
+.header {
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    height: 100px;
+}
 main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    height: 45rem;
+    text-align: center;
+     justify-content: center;
+}
+.about {
+    display: flex;
+}
+.me {
+    height: 300px;
+    width: 300px;
+    object-fit: scale-down;
+}
+
+.virtual-pets {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
 }
-.projects {
+.virtual-pet-img {
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+}
+.fizz-buzz-kata {
     display: flex;
-    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    margin: 20px auto;
 }
-.virtual-pets {
-    max-width: 100px;
+.fizz-buzz-kata-img {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+    margin: 20px;
+}
+.skills-tech {
+    display: flex;
+    justify-content: stretch;
 }
 footer {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+}
+.contact {
+    display: flex;
+    justify-content: center;
 }
 .footer-nav {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+}
+.linked-In {
+    height: 64px;
+    width: 64px;
 }

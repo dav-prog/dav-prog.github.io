@@ -1,25 +1,36 @@
 :root{
     font-family: Arial, Helvetica, sans-serif;
+    color: #121401;
 }
-
-/* header{
-    background-color: #003B6F;
-    color: #F2F2F2
-} */
-
-
-.nav-bar{
-    background-color: #003B6F;
-    color: #F2F2F2
+.container {
+    color: #121401;
 }
-
-/* .nav-bar ul{
+header{
+    background-color: #003B6F;
+    color: #CCCCCC;
+}
+body {
+    background-color: #CCCCCC;
+}
+.nav-bar ul{
     list-style-type: none;
-    font-family: var(--root);
-} */
+}
+li a {
+    display: block;
+    color: #F2F2F2;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover {
+    color:#B48EAE;
+}
 .footer-nav{
     list-style-type: none;
 }
 .skills-tech ul{
     list-style-type: none;
+}
+footer {
+    background-color: #3C77AB;
 }
