@@ -1,5 +1,5 @@
 :root{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: #121401;
 }
 .container {
@@ -31,6 +31,6 @@ li a:hover {
 .skills-tech ul{
     list-style-type: none;
 }
-footer {
+.footer {
     background-color: #3C77AB;
 }
