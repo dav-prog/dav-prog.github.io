@@ -1,6 +1,7 @@
 :root{
     font-family: Helvetica, Arial, sans-serif;
     color: #121401;
+    font-size: large;
 }
 .container {
     color: #121401;
@@ -8,6 +9,7 @@
 header{
     background-color: #003B6F;
     color: #CCCCCC;
+    font-size: large;
 }
 body {
     background-color: #CCCCCC;
@@ -33,4 +35,5 @@ li a:hover {
 }
 .footer {
     background-color: #3C77AB;
+    font-size: large;
 }
