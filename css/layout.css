@@ -1,24 +1,28 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-html{
+
+html {
     width: 100vw;
     height: 100vh;
 }
+
 .container {
-    margin: 0 px auto; 
+    margin: 0 px auto;
     text-align: center;
     width: 100vw;
     height: 100vh;
 }
+
 .header {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     margin: 10px;
     width: 100%;
 }
+
 main {
     display: flex;
     flex-direction: row;
@@ -29,39 +33,48 @@ main {
     text-align: center;
     justify-content: center;
 }
+
 .about {
     display: flex;
 }
+
 .me {
-    height: 300px;
+    height: 375px;
     width: 300px;
     border-radius: 55px;
 }
+
 #title {
     margin: 30px;
 }
+
 .virtual-pets {
     margin: 20px auto;
-} 
+}
+
 .virtual-pet-img {
     width: 350px;
     height: 200px;
     margin: 20px;
     border-radius: 15px;
 }
+
 .fizz-buzz-kata {
     margin: 20px auto;
 }
+
 .fizz-buzz-kata-img {
     width: 350px;
     height: 200px;
     margin: 20px;
     border-radius: 15px;
 }
+
 .footer-nav {
     display: flex;
     justify-content: space-around;
 }
+
 .linked-In {
     height: 64px;
     width: 64px;

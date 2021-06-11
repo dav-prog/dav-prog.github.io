@@ -5,14 +5,12 @@
 }
 .container {
     color: #121401;
+    background-color: #CCCCCC;
 }
 header{
     background-color: #003B6F;
     color: #CCCCCC;
     font-size: large;
-}
-body {
-    background-color: #CCCCCC;
 }
 .nav-bar ul{
     list-style-type: none;
